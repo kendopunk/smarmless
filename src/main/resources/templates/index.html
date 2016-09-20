@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en" ng-app="indexApp" xmlns:th="http://www.thymeleaf.org">
+<head>
+	<meta charset="utf-8" />
+	<title th:text="${title}">Welcome</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="css/bootstrap/flatly/bootstrap.min.css" />
+	<link rel="stylesheet" href="css/main.css" />
+	<link rel="stylesheet" href="css/bootstrap_assist.css" />
+</head>
+<body ng-controller="indexCtrl">
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<!--  ng click here and also need pointer event -->
+			<a class="navbar-brand clickable" ng-click="goHome()">smarm | less</a>
+		</div>
+	</nav>
+	
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-8 col-md-offset-1">
+				<div class="ng-view"></div>
+			</div>
+			<div class="col-md-3">
+				<div class="right-nav-container">
+					<div class="enc-1 aboutme">
+					
+						<div class="tude">Web sans 'tude</div>
+						
+						<div class="fish">
+							<img src="img/yellow_perch.png" class="perch" />
+						</div>
+						
+						<div class="bio">
+							<p>Software engineer... D3.js journeyman... Java mule... Angular jockey... big data buckwheater... 
+							ElasticSearch tinkerer... Node.js sapper... Marylander... avid angler... excellent cook... good marksman... 
+							mediocre golfer... terrible skier... musically inept.</p>
+							
+							<p>Multilingual if you count Bawlmerese as a 2nd language.</p>
+						</div>
+						
+						<div class="bio-linked-in">
+							<a href="https://www.linkedin.com/pub/mark-fehrenbacher/34/554/b5b" target="_blank" style="text-decoration:none;">
+								<span style="font: 80% Arial,sans-serif; color:#0783B6;">
+								<img src="https://static.licdn.com/scds/common/u/img/webpromo/btn_in_20x15.png" 
+									width="20" height="15" alt="View Mark Fehrenbacher's LinkedIn profile" 
+									style="vertical-align:middle;" border="0" />&nbsp;View my profile</span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- global -->
+	<script src="lib/global.js"></script>
+	
+	<!-- jQuery....Boostrap plugins -->
+	<script src="js/jquery/dist/jquery.min.js"></script>
+	
+	<!-- angular base -->
+	<script src="js/angular/angular.min.js"></script>
+	<script src="js/angular-route/angular-route.min.js"></script>
+	<script src="lib/ng/index.js"></script>
+	
+	<!-- ng controllers -->
+	<script src="lib/ng/controllers/indexController.js"></script>
+	<script src="lib/ng/controllers/stackGroupController.js"></script>
+	<script src="lib/ng/controllers/timeseriesController.js"></script>
+	<script src="lib/ng/controllers/treemapController.js"></script>
+	
+	<!-- ng services -->
+	<script src="lib/ng/services/restService.js"></script>
+
+	<!-- ng directives -->
+	<script src="lib/ng/directives/chartDirectives.js"></script>
+
+	<!-- d3 -->
+	<script src="js/d3/d3.min.js"></script>
+	<script src="lib/d3/colorbrewer.js"></script>
+	<script src="lib/d3/d3.tip.v0.6.3.js"></script>
+	<script src="lib/d3/d3_palette.js"></script>
+	<script src="lib/d3/universal_notch_line.js"></script>
+	<script src="lib/d3/universal_stack_group_chart.js"></script>
+	<script src="lib/d3/universal_time_chart.js"></script>
+	<script src="lib/d3/universal_tree.js"></script>
+	
+	
+	<!-- bootstrap -->
+	<script src="js/bootstrap/dist/js/bootstrap.min.js"></script>
+	<script src="js/angular-bootstrap/ui-bootstrap.min.js"></script>
+	<script src="js/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
+	
+	<!-- moment, spectrum -->
+	<script src="js/moment/moment.js"></script>
+	<script src="js/spectrum/spectrum.js"></script>
+	
+</body>
+</html>

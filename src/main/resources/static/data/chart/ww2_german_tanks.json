@@ -1,0 +1,182 @@
+[
+	{
+		"model": "Panzer II",
+		"year": 1939,
+		"production": 15
+	},
+	{
+		"model": "Panzer 38(t)",
+		"year": 1939,
+		"production": 153
+	},
+	{
+		"model": "Panzer III",
+		"year": 1939,
+		"production": 157
+	},
+	{
+		"model": "Panzer IV",
+		"year": 1939,
+		"production": 45
+	},
+	{
+		"model": "Panzer V",
+		"year": 1939,
+		"production": 0
+	},
+	{
+		"model": "Tiger I",
+		"year": 1939,
+		"production": 0
+	},
+	{
+		"model": "Panzer II",
+		"year": 1940,
+		"production": 99
+	},
+	{
+		"model": "Panzer 38(t)",
+		"year": 1940,
+		"production": 367
+	},
+	{
+		"model": "Panzer III",
+		"year": 1940,
+		"production": 1054
+	},
+	{
+		"model": "Panzer IV",
+		"year": 1940,
+		"production": 368
+	},
+	{
+		"model": "Panzer V",
+		"year": 1940,
+		"production": 0
+	},
+	{
+		"model": "Tiger I",
+		"year": 1940,
+		"production": 0
+	},
+	{
+		"model": "Panzer II",
+		"year": 1941,
+		"production": 265
+	},
+	{
+		"model": "Panzer 38(t)",
+		"year": 1941,
+		"production": 678
+	},
+	{
+		"model": "Panzer III",
+		"year": 1941,
+		"production": 2213
+	},
+	{
+		"model": "Panzer IV",
+		"year": 1941,
+		"production": 467
+	},
+	{
+		"model": "Panzer V",
+		"year": 1941,
+		"production": 0
+	},
+	{
+		"model": "Tiger I",
+		"year": 1941,
+		"production": 0
+	},
+	{
+		"model": "Panzer II",
+		"year": 1942,
+		"production": 848
+	},
+	{
+		"model": "Panzer 38(t)",
+		"year": 1942,
+		"production": 652
+	},
+	{
+		"model": "Panzer III",
+		"year": 1942,
+		"production": 2958
+	},
+	{
+		"model": "Panzer IV",
+		"year": 1942,
+		"production": 994
+	},
+	{
+		"model": "Panzer V",
+		"year": 1942,
+		"production": 0
+	},
+	{
+		"model": "Tiger I",
+		"year": 1942,
+		"production": 78
+	},
+	{
+		"model": "Panzer II",
+		"year": 1943,
+		"production": 803
+	},
+	{
+		"model": "Panzer 38(t)",
+		"year": 1943,
+		"production": 1008
+	},
+	{
+		"model": "Panzer III",
+		"year": 1943,
+		"production": 3379
+	},
+	{
+		"model": "Panzer IV",
+		"year": 1943,
+		"production": 3822
+	},
+	{
+		"model": "Panzer V",
+		"year": 1943,
+		"production": 1849
+	},
+	{
+		"model": "Tiger I",
+		"year": 1943,
+		"production": 649
+	},
+	{
+		"model": "Panzer II",
+		"year": 1944,
+		"production": 151
+	},
+	{
+		"model": "Panzer 38(t)",
+		"year": 1944,
+		"production": 2356
+	},
+	{
+		"model": "Panzer III",
+		"year": 1944,
+		"production": 4752
+	},
+	{
+		"model": "Panzer IV",
+		"year": 1944,
+		"production": 6625
+	},
+	{
+		"model": "Panzer V",
+		"year": 1944,
+		"production": 4003
+	},
+	{
+		"model": "Tiger I",
+		"year": 1944,
+		"production": 641
+	}
+]

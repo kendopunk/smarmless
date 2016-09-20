@@ -1,0 +1,33 @@
+{
+  "name": "ui-bootstrap-0.13.1-SNAPSHOT",
+  "authors": [
+    "ragefuljoe <ragefuljoe@gmail.com>"
+  ],
+  "description": "my humps my humps",
+  "main": "ui-bootstrap-tpls-0.13.1-SNAPSHOT.js",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "angular-bootstrap",
+    "0.13.1"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "homepage": "https://github.com/ragefuljoe/ui-bootstrap-tpls-0.13.1-SNAPSHOT",
+  "_release": "a127f8f95b",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "a127f8f95b91137d5e07332e4bd00e39f917892a"
+  },
+  "_source": "https://github.com/ragefuljoe/ui-bootstrap-tpls-0.13.1-SNAPSHOT.git",
+  "_target": "*",
+  "_originalSource": "ui-bootstrap-tpls-0.13.1-SNAPSHOT"
+}

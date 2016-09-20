@@ -1,0 +1,110 @@
+[
+   {
+      "name":"A",
+      "group":"Group 1",
+      "color":"#6495ed",
+      "value":21.671519079179678
+   },
+   {
+      "name":"A",
+      "group":"Group 2",
+      "color":"#060",
+      "value":78.33264649479983
+   },
+   {
+      "name":"A",
+      "group":"Group 3",
+      "color":"#906",
+      "value":96.88372505057971
+   },
+   {
+      "name":"B",
+      "group":"Group 1",
+      "color":"#6495ed",
+      "value":75.32343968593814
+   },
+   {
+      "name":"B",
+      "group":"Group 2",
+      "color":"#060",
+      "value":54.693572956614155
+   },
+   {
+      "name":"B",
+      "group":"Group 3",
+      "color":"#906",
+      "value":87.28315023640775
+   },
+   {
+      "name":"C",
+      "group":"Group 1",
+      "color":"#6495ed",
+      "value":6.588657186814638
+   },
+   {
+      "name":"C",
+      "group":"Group 2",
+      "color":"#060",
+      "value":43.42113459568694
+   },
+   {
+      "name":"C",
+      "group":"Group 3",
+      "color":"#906",
+      "value":67.94819093416565
+   },
+   {
+      "name":"D",
+      "group":"Group 1",
+      "color":"#6495ed",
+      "value":73.11269084416084
+   },
+   {
+      "name":"D",
+      "group":"Group 2",
+      "color":"#060",
+      "value":4.752612820964028
+   },
+   {
+      "name":"D",
+      "group":"Group 3",
+      "color":"#906",
+      "value":45.57850065854776
+   },
+   {
+      "name":"E",
+      "group":"Group 1",
+      "color":"#6495ed",
+      "value":40.27335234894813
+   },
+   {
+      "name":"E",
+      "group":"Group 2",
+      "color":"#060",
+      "value":12.706532407330215
+   },
+   {
+      "name":"E",
+      "group":"Group 3",
+      "color":"#906",
+      "value":23.865083339723302
+   },
+   {
+      "name":"F",
+      "group":"Group 1",
+      "color":"#6495ed",
+      "value":16.86086842164628
+   },
+   {
+      "name":"F",
+      "group":"Group 2",
+      "color":"#060",
+      "value":57.10222741260235
+   },
+   {
+      "name":"F",
+      "group":"Group 3",
+      "color":"#906",
+      "value":41.765099020045746
+   }
+]

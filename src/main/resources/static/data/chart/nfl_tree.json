@@ -1,0 +1,292 @@
+{
+	"name": "root",
+	"children": [{
+		"team": "Arizona Cardinals",
+		"nickname": "Cardinals",
+		"wins": 536,
+		"losses": 725,
+		"sb": 0,
+		"conf": 1,
+		"color": "#870619",
+		"teamvalue": 2025000000
+	}, {
+		"team": "Atlanta Falcons",
+		"nickname": "Falcons",
+		"wins": 331,
+		"losses": 433,
+		"sb": 0,
+		"conf": 1,
+		"color": "#bd0d18",
+		"teamvalue": 2125000000
+	}, {
+		"team": "Baltimore Ravens",
+		"nickname": "Ravens",
+		"wins": 175,
+		"losses": 146,
+		"sb": 2,
+		"conf": 2,
+		"color": "#280353",
+		"teamvalue": 2300000000
+	}, {
+		"team": "Buffalo Bills",
+		"nickname": "Bills",
+		"wins": 393,
+		"losses": 453,
+		"sb": 0,
+		"conf": 4,
+		"color": "#00338d",
+		"teamvalue": 1500000000
+	}, {
+		"team": "Carolina Panthers",
+		"nickname": "Panthers",
+		"wins": 167,
+		"losses": 170,
+		"sb": 0,
+		"conf": 2,
+		"color": "#0088ce",
+		"teamvalue": 2075000000
+	}, {
+		"team": "Chicago Bears",
+		"nickname": "Bears",
+		"wins": 741,
+		"losses": 557,
+		"sb": 1,
+		"conf": 2,
+		"color": "#dd4814",
+		"teamvalue": 2700000000
+	}, {
+		"team": "Cincinnati Bengals",
+		"nickname": "Bengals",
+		"wins": 339,
+		"losses": 400,
+		"sb": 0,
+		"conf": 2,
+		"color": "#fb4f14",
+		"teamvalue": 1675000000
+	}, {
+		"team": "Cleveland Browns",
+		"nickname": "Browns",
+		"wins": 508,
+		"losses": 457,
+		"sb": 0,
+		"conf": 0,
+		"color": "#e34912",
+		"teamvalue": 1850000000
+	}, {
+		"team": "Dallas Cowboys",
+		"nickname": "Cowboys",
+		"wins": 481,
+		"losses": 365,
+		"sb": 5,
+		"conf": 8,
+		"color": "#8c8B8a",
+		"teamvalue": 4200000000
+	}, {
+		"team": "Denver Broncos",
+		"nickname": "Broncos",
+		"wins": 458,
+		"losses": 386,
+		"sb": 3,
+		"conf": 8,
+		"color": "#fb4f14",
+		"teamvalue": 2400000000
+	}, {
+		"team": "Detroit Lions",
+		"nickname": "Lions",
+		"wins": 536,
+		"losses": 635,
+		"sb": 0,
+		"conf": 0,
+		"color": "#006db0",
+		"teamvalue": 1650000000
+	}, {
+		"team": "Green Bay Packers",
+		"nickname": "Packers",
+		"wins": 721,
+		"losses": 548,
+		"sb": 4,
+		"conf": 5,
+		"color": "#213d30",
+		"teamvalue": 2350000000
+	}, {
+		"team": "Houston Texans",
+		"nickname": "Texans",
+		"wins": 99,
+		"losses": 127,
+		"sb": 0,
+		"conf": 0,
+		"color": "#b31b34",
+		"teamvalue": 2600000000
+	}, {
+		"team": "Indianapolis Colts",
+		"nickname": "Colts",
+		"wins": 494,
+		"losses": 435,
+		"sb": 2,
+		"conf": 4,
+		"color": "#003b7b",
+		"teamvalue": 2175000000
+	}, {
+		"team": "Jacksonville Jaguars",
+		"nickname": "Jaguars",
+		"wins": 152,
+		"losses": 186,
+		"sb": 0,
+		"conf": 0,
+		"color": "#007198",
+		"teamvalue": 1950000000
+	}, {
+		"team": "Kansas City Chiefs",
+		"nickname": "Chiefs",
+		"wins": 436,
+		"losses": 406,
+		"sb": 1,
+		"conf": 2,
+		"color": "#b20032",
+		"teamvalue": 1875000000
+	}, {
+		"team": "Los Angeles Rams",
+		"nickname": "Rams",
+		"wins": 541,
+		"losses": 543,
+		"sb": 1,
+		"conf": 3,
+		"color": "#c9af74",
+		"teamvalue": 2900000000
+	}, {
+		"team": "Miami Dolphins",
+		"nickname": "Dolphins",
+		"wins": 429,
+		"losses": 337,
+		"sb": 2,
+		"conf": 5,
+		"color": "#006666",
+		"teamvalue": 2375000000
+	}, {
+		"team": "Minnesota Vikings",
+		"nickname": "Vikings",
+		"wins": 451,
+		"losses": 379,
+		"sb": 0,
+		"conf": 4,
+		"color": "#3b0160",
+		"teamvalue": 2200000000
+	}, {
+		"team": "New England Patriots",
+		"nickname": "Patriots",
+		"wins": 464,
+		"losses": 381,
+		"sb": 4,
+		"conf": 8,
+		"color": "#0d254c",
+		"teamvalue": 3400000000
+	}, {
+		"team": "New Orleans Saints",
+		"nickname": "Saints",
+		"wins": 331,
+		"losses": 420,
+		"sb": 1,
+		"conf": 1,
+		"color": "#d2B887",
+		"teamvalue": 1750000000
+	}, {
+		"team": "New York Giants",
+		"nickname": "Giants",
+		"wins": 675,
+		"losses": 567,
+		"sb": 4,
+		"conf": 5,
+		"color": "#192f6B",
+		"teamvalue": 3100000000
+	}, {
+		"team": "New York Jets",
+		"nickname": "Jets",
+		"wins": 388,
+		"losses": 458,
+		"sb": 1,
+		"conf": 1,
+		"color": "#0c371d",
+		"teamvalue": 2750000000
+	}, {
+		"team": "Oakland Raiders",
+		"nickname": "Raiders",
+		"wins": 445,
+		"losses": 398,
+		"sb": 3,
+		"conf": 5,
+		"color": "#333333",
+		"teamvalue": 2100000000
+	}, {
+		"team": "Philadelphia Eagles",
+		"nickname": "Eagles",
+		"wins": 550,
+		"losses": 582,
+		"sb": 0,
+		"conf": 2,
+		"color": "#708090",
+		"teamvalue": 2500000000
+	}, {
+		"team": "Pittsburgh Steelers",
+		"nickname": "Steelers",
+		"wins": 592,
+		"losses": 530,
+		"sb": 6,
+		"conf": 8,
+		"color": "#000000",
+		"teamvalue": 2250000000
+	}, {
+		"team": "San Diego Chargers",
+		"nickname": "Chargers",
+		"wins": 422,
+		"losses": 421,
+		"sb": 0,
+		"conf": 1,
+		"color": "#5b92e5",
+		"teamvalue": 2080000000
+	}, {
+		"team": "San Francisco 49ers",
+		"nickname": "49ers",
+		"wins": 559,
+		"losses": 451,
+		"sb": 5,
+		"conf": 6,
+		"color": "#af1e2c",
+		"teamvalue": 3000000000
+	}, {
+		"team": "Seattle Seahawks",
+		"nickname": "Seahawks",
+		"wins": 316,
+		"losses": 314,
+		"sb": 1,
+		"conf": 3,
+		"color": "#4eae47",
+		"teamvalue": 2225000000
+	}, {
+		"team": "Tampa Bay Buccaneers",
+		"nickname": "Buccaneers",
+		"wins": 242,
+		"losses": 387,
+		"sb": 1,
+		"conf": 1,
+		"color": "#89765f",
+		"teamvalue": 1800000000
+	}, {
+		"team": "Tennessee Titans",
+		"nickname": "Titans",
+		"wins": 405,
+		"losses": 443,
+		"sb": 0,
+		"conf": 1,
+		"color": "#648Fcc",
+		"teamvalue": 2000000000
+	}, {
+		"team": "Washington Redskins",
+		"nickname": "Redskins",
+		"wins": 578,
+		"losses": 567,
+		"sb": 3,
+		"conf": 5,
+		"color": "#773141",
+		"teamvalue": 2950000000
+	}]
+}

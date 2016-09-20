@@ -1,0 +1,61 @@
+[{
+	"battle": "Tarawa",
+	"side": "Allied",
+	"color": "#4682b4",
+	"casualties": 3797
+}, {
+	"battle": "Tarawa",
+	"side": "Axis",
+	"color": "#ff6347",
+	"casualties": 4690
+}, {
+	"battle": "Monte Cassino",
+	"side": "Allied",
+	"color": "#4682b4",
+	"casualties": 55000
+}, {
+	"battle": "Monte Cassino",
+	"side": "Axis",
+	"color": "#ff6347",
+	"casualties": 20000
+}, {
+	"battle": "El Alamein (1)",
+	"side": "Allied",
+	"color": "#4682b4",
+	"casualties": 13250
+}, {
+	"battle": "El Alamein (1)",
+	"side": "Axis",
+	"color": "#ff6347",
+	"casualties": 10000
+}, {
+	"battle": "El Alamein (2)",
+	"side": "Allied",
+	"color": "#4682b4",
+	"casualties": 13560
+}, {
+	"battle": "El Alamein (2)",
+	"side": "Axis",
+	"color": "#ff6347",
+	"casualties": 30542
+}, {
+	"battle": "Peleliu",
+	"side": "Allied",
+	"color": "#4682b4",
+	"casualties": 10804
+}, {
+	"battle": "Peleliu",
+	"side": "Axis",
+	"color": "#ff6347",
+	"casualties": 10695
+}, {
+	"battle": "Anzio",
+	"side": "Allied",
+	"color": "#4682b4",
+	"casualties": 43000
+}, {
+	"battle": "Anzio",
+	"side": "Axis",
+	"color": "#ff6347",
+	"casualties": 40000
+}]

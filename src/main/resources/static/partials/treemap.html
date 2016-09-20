@@ -1,0 +1,23 @@
+<div class="toplink"><a href="#/">&laquo; back</a></div>
+
+<h2 style="margin-bottom:20px;">Treemap</h2>
+
+<div class="content">Some content here to describe the chart...</div>
+
+<div class="enc-1">
+	<form class="form-inline" style="margin-top:15px;">
+		<div class="form-group">
+			<label for="metrics" style="margin-right:15px;">Franchise Metrics:</label>
+			<span ng-repeat="b in pageConfig.nfl.metrics">
+				<button class="btn btn-sm {{b.cls}}" ng-click="toggleMetric('nfl', $index)" style="margin-right:10px;">{{b.name}}</button>
+			</span>
+		</div>
+	</form>
+</div>
+
+<div class="explanation" ng-cloak>{{pageConfig.nfl.title}}<br/>
+	<span class="data-from">Data from <span ng-bind-html="pageConfig.nfl.dataFrom"></div>
+	
+<div id="nflChart" class="chart-container {{pageConfig.nfl.chartMask ? 'loading-mask' : ''">
+	<universal-treemap chart-config="pageConfig.nfl.chartConfig"></universal-treemap>
+</div>

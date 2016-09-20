@@ -1,0 +1,23 @@
+[
+	{"artist": "Michael Jackson", "album": "Thriller", "country": "US", "sales": 29000000},
+	{"artist": "AC/DC", "album": "Back in Black", "country": "US", "sales": 22000000},
+	{"artist": "The Eagles", "album": "Hotel California", "country": "US", "sales": 16000000},
+	{"artist": "Pink Floyd", "album": "The Wall", "country": "US", "sales": 11500000},
+	{"artist": "Dire Straits", "album": "Brothers in Arms", "country": "US", "sales": 9000000},
+	{"artist": "Metallica", "album": "Metallica", "country": "US", "sales": 16000000},
+	{"artist": "Meatloaf", "album": "Bat Out of Hell", "country": "US", "sales": 14000000},
+	{"artist": "Michael Jackson", "album": "Thriller", "country": "UK", "sales": 3300000},
+	{"artist": "AC/DC", "album": "Back in Black", "country": "UK", "sales": 1000000},
+	{"artist": "The Eagles", "album": "Hotel California", "country": "UK", "sales": 1800000},
+	{"artist": "Pink Floyd", "album": "The Wall", "country": "UK", "sales": 300000},
+	{"artist": "Dire Straits", "album": "Brothers in Arms", "country": "UK", "sales": 3900000},
+	{"artist": "Metallica", "album": "Metallica", "country": "UK", "sales": 300000},
+	{"artist": "Meatloaf", "album": "Bat Out of Hell", "country": "UK", "sales": 2100000},
+	{"artist": "Michael Jackson", "album": "Thriller", "country": "Canada", "sales": 2000000},
+	{"artist": "AC/DC", "album": "Back in Black", "country": "Canada", "sales": 1000000},
+	{"artist": "The Eagles", "album": "Hotel California", "country": "Canada", "sales": 1000000},
+	{"artist": "Pink Floyd", "album": "The Wall", "country": "Canada", "sales": 1000000},
+	{"artist": "Dire Straits", "album": "Brothers in Arms", "country": "Canada", "sales": 1000000},
+	{"artist": "Metallica", "album": "Metallica", "country": "Canada", "sales": 1000000},
+	{"artist": "Meatloaf", "album": "Bat Out of Hell", "country": "Canada", "sales": 2000000}
+]

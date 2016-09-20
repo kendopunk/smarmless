@@ -1,0 +1,32 @@
+<h2>D3.js + Angular</h2>
+
+<p class="ng-d3">A collection of highly-configurable, responsive D3.js visualizations built as Angular directives...</p>
+
+<div ng-repeat="c in viewConfig.sparkCharts | orderBy : 'displayOrder'">
+	<div class="spark-container-left">
+		<div id="spark-{{c.id}}" class="sparkline-outer {{c.mask ? 'loading-mask' : ''}}" 
+				ng-mouseover="highlightSpark('on', $event)" 
+				ng-mouseout="highlightSpark('off', $event)" 
+				ng-click="loadChart(c.id)">
+			<div ng-if="c.id == 'stackgroup'">
+				<universal-stack-group-chart chart-config="c.chartConfig" style="pointer-events:none;"></universal-stack-group-chart>
+			</div>
+			<div ng-if="c.id == 'timeseries'">
+				<universal-time-chart chart-config="c.chartConfig" style="pointer-events:none;"></universal-time-chart>
+			</div>
+			<div ng-if="c.id == 'treemap'">
+				<universal-treemap chart-config="c.chartConfig" style="pointer-events:none;"></universal-treemap>
+			</div>
+		</div>
+	</div>
+	<div class="spark-container-right">
+		<div class="spark-name">{{c.name}}</div>
+		<div class="spark-description">{{c.description}}</div>
+	</div>
+	
+	<div style="clear:both" />
+	
+	<div style="margin-top:20px; margin-bottom:20px;">
+		<universal-notch-line canvas-height="25" path-color="#badcdc"></universal-notch-line>
+	</div>
+</div>

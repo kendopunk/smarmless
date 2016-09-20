@@ -1,0 +1,99 @@
+<div class="toplink"><a href="#/">&laquo; back</a></div>
+
+<h2 style="margin-bottom:20px;">Interchangeable Stack/Group Bar Chart</h2>
+
+<div class="content">Some content here to describe the chart...</div>
+
+<div class="enc-1">
+	<form class="form-inline">
+		<div class="form-group">
+			<label for="layout" style="margin-right:15px;">Layout:</label>
+			<span ng-repeat="b in pageConfig.battles.layout">
+				<button class="btn btn-sm {{b.cls}}" ng-click="toggleLayout('battles', $index)" style="margin-right:10px;">{{b.name}}</button>
+			</span>
+		</div>
+		
+		<div class="form-group">
+			<label for="orientation" style="margin-left:15px; margin-right:15px;">Orientation:</label>
+			<span ng-repeat="b in pageConfig.battles.orientation">
+				<button class="btn btn-sm {{b.cls}}" ng-click="toggleOrientation('battles', $index)" style="margin-right:10px;">{{b.name}}</button>
+			</span>
+		</div>
+		
+		<div class="form-group">
+			<label for="grid" style="margin-left:15px; margin-right:15px;">Grid:</label>
+			<span ng-repeat="b in pageConfig.battles.grid">
+				<button class="btn btn-sm {{b.cls}}" ng-click="toggleGrid('battles', $index)" style="margin-right:10px;">{{b.name}}</button>
+			</span>
+		</div>
+	</form>
+	<form class="form-inline" style="margin-top:15px;">
+		<div class="form-group">
+			<label for="aggregation" style="margin-right:15px;">Aggregate By:</label>
+			<span ng-repeat="b in pageConfig.battles.aggregation">
+				<button class="btn btn-sm {{b.cls}}" ng-click="toggleBattleAggregation($index)" style="margin-right:10px;">{{b.name}}</button>
+			</span>
+		</div>
+		
+		<div class="form-group">
+			<label for="width" style="margin-right:15px;">Responsive Width:</label>
+			<span ng-repeat="b in pageConfig.battles.width">
+				<button class="btn btn-sm {{b.cls}}" ng-click="toggleBattleWidth($index)" style="margin-right:10px;">{{b.name}}</button>
+			</span>
+		</div>
+	</form>
+</div>
+
+<div class="explanation" ng-cloak>{{pageConfig.battles.title}}<br/>
+	<span class="data-from">Data from {{pageConfig.battles.dataFrom}}</span></div>
+	
+<div id="battleChart" class="chart-container {{pageConfig.battles.chartMask ? 'loading-mask' : ''">
+	<universal-stack-group-chart chart-config="pageConfig.battles.chartConfig"></universal-stack-group-chart>
+</div>
+
+<div class="enc-1">
+	<form class="form-inline">
+		<div class="form-group">
+			<label for="layout" style="margin-right:15px;">Layout:</label>
+			<span ng-repeat="b in pageConfig.albums.layout">
+				<button class="btn btn-sm {{b.cls}}" ng-click="toggleLayout('albums', $index)" style="margin-right:10px;">{{b.name}}</button>
+			</span>
+		</div>
+		
+		<div class="form-group">
+			<label for="orientation" style="margin-left:15px; margin-right:15px;">Orientation:</label>
+			<span ng-repeat="b in pageConfig.albums.orientation">
+				<button class="btn btn-sm {{b.cls}}" ng-click="toggleOrientation('albums', $index)" style="margin-right:10px;">{{b.name}}</button>
+			</span>
+		</div>
+		
+		<div class="form-group">
+			<label for="orientation" style="margin-left:15px; margin-right:15px;">Grid:</label>
+			<span ng-repeat="b in pageConfig.albums.grid">
+				<button class="btn btn-sm {{b.cls}}" ng-click="toggleGrid('albums', $index)" style="margin-right:10px;">{{b.name}}</button>
+			</span>
+		</div>
+	</form>
+	<form class="form-inline" style="margin-top:15px;">
+		<div class="form-group">
+			<label for="layout" style="margin-right:15px;">Aggregate By:</label>
+			<span ng-repeat="b in pageConfig.albums.aggregation">
+				<button class="btn btn-sm {{b.cls}}" ng-click="toggleAlbumAggregation($index)" style="margin-right:10px;">{{b.name}}</button>
+			</span>
+		</div>
+		<div class="form-group">
+			<label for="layout" style="margin-right:15px;">Responsive Width:</label>
+			<span ng-repeat="b in pageConfig.albums.width">
+				<button class="btn btn-sm {{b.cls}}" ng-click="toggleAlbumWidth($index)" style="margin-right:10px;">{{b.name}}</button>
+			</span>
+		</div>
+	</form>
+</div>
+
+<div class="explanation" ng-cloak>{{pageConfig.albums.title}}<br/>
+	<span class="data-from">Data from {{pageConfig.albums.dataFrom}}</span></div>
+
+<div id="albumChart" class="chart-container {{pageConfig.albums.chartMask ? 'loading-mask' : ''">
+	<universal-stack-group-chart chart-config="pageConfig.albums.chartConfig"></universal-stack-group-chart>
+</div>
+

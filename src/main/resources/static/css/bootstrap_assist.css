@@ -1,0 +1,55 @@
+/****************************************
+ * bootstrap_assist.scss
+ * project: Smarmless
+ * author: Mark Fehrenbacher
+ * email: kendopunk@hotmail.com
+ ****************************************/
+/****************************************
+- IMPORTS
+****************************************/
+/****************************************
+ * common.scss
+ * project: Smarmless
+ * author: Mark Fehrenbacher
+ * email: kendopunk@hotmail.com
+ ****************************************/
+/****************************************
+ - NAV
+ ****************************************/
+.navbar-brand.clickable {
+  cursor: pointer; }
+
+/****************************************
+ - BLOCK LEVEL ELEMENTS
+ ****************************************/
+div.form-group label {
+  margin-left: 10px;
+  margin-right: 15px; }
+div.row.sm-top {
+  margin-top: 20px; }
+div.row.spark {
+  margin-top: 10px;
+  margin-bottom: 10px; }
+
+/****************************************
+ - BUTTONS
+ ****************************************/
+.btn {
+  border-width: 1px;
+  padding: 2 2 2 2; }
+  .btn.btn-off {
+    background-color: #fff;
+    color: #555;
+    pointer-events: all;
+    border-color: #ddd;
+    background-color: #eee; }
+  .btn.btn-off:hover {
+    border-color: black; }
+  .btn.btn-on {
+    background-color: #0c4;
+    color: #fff;
+    pointer-events: none; }
+  .btn.btn-sm {
+    font-size: 14px; }
+
+/*# sourceMappingURL=bootstrap_assist.css.map */
